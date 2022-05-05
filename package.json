@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "deco2017 A3",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/carolxnee/deco2017prototype.git"
@@ -21,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/carolxnee/deco2017prototype/issues"
   },
-  "homepage": "https://github.com/carolxnee/deco2017prototype#readme"
+  "homepage": "https://github.com/carolxnee/deco2017prototype#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
 }
+
